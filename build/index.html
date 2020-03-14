@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <title>Cahee</title>
   </head>
   <body>
     <header id="home" class="header">
@@ -48,8 +49,104 @@
       </div>
     </header>
     <main>
-      //= templates/about.html //= templates/services.html //=
-      templates/gallery.html
+      <section id="about" class="section-about">
+        <div class="cotainer section-about__container">
+          <div class="section-about__picture-side">
+            <img class="section-about__image" src="images/cup.png" alt="cup" />
+          </div>
+          <div class="section-about__content-side">
+            <h2 class="section-about__title">About Us</h2>
+            <p class="section-about__text">
+              Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+            </p>
+            <p class="section-about__text">
+              Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+              voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+              ipsa quae ab illo inventore.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="section-services">
+        <div class="container section-services__container">
+            <div class="section-services__content-side">
+                <ul class="section-services__list">
+                    <li class="section-services__item">
+                        <a href="#" class="link-card">
+                            <div class="link-card__text-wrapper">
+                                <h3 class="link-card__text">Online Shopping</h3>
+                            </div>
+                            <div class="link-card__icon-wrapper">
+                             <svg class="link-card__icon">
+                                 <use xlink:href="#cart"></use>
+                             </svg>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="section-services__item">
+                      <a href="#" class="link-card">
+                          <div class="link-card__text-wrapper">
+                              <h3 class="link-card__text">Quality Product</h3>
+                          </div>
+                          <div class="link-card__icon-wrapper">
+                           <svg class="link-card__icon">
+                               <use xlink:href="#hand"></use>
+                           </svg>
+                          </div>
+                      </a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+      </section>
+      <section id="gallery" class="section-gallery">
+        <div class="container section-gallery__container">
+          <h2 class="section-gallery__title">Gallery</h2>
+          <p class="section-gallery__description">
+            Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <div class="section-gallery__grid photo-grid">
+            <div class="photo-grid__row">
+              <div
+                class="photo-grid__col photo-grid__col--large photo-grid__image-wrapper photo-grid__image-wrapper--large"
+              >
+                <img src="images/Clip-1.png" alt="clip-1" />
+              </div>
+              <div class="photo-grid__col photo-grid__col--small">
+                <div
+                  class="photo-grid__row photo-grid__row--medium photo-grid__image-wrapper photo-grid__image-wrapper--small"
+                >
+                  <img src="images/Clip-2.png" alt="clip-2" />
+                </div>
+                <div
+                  class="photo-grid__row photo-grid__row--medium photo-grid__image-wrapper photo-grid__image-wrapper--small"
+                >
+                  <img src="images/Clip-3.png" alt="clip-3" />
+                </div>
+              </div>
+            </div>
+            <div class="photo-grid__row">
+              <div
+                class="photo-grid__col photo-grid__col--medium photo-grid__image-wrapper photo-grid__image-wrapper--medium"
+              >
+                <img class="photo-grid__image" src="images/Clip-4.png" alt="clip-4" />
+              </div>
+              <div
+                class="photo-grid__col photo-grid__col--medium photo-grid__image-wrapper photo-grid__image-wrapper--medium photo-grid__image-wrapper--marginless"
+              >
+                <img class="photo-grid__image" src="images/Clip-5.png" alt="clip-5" />
+              </div>
+            </div>
+          </div>
+          <a href="#" class="button button--gallery section-gallery__button"
+            >Viev more</a
+          >
+        </div>
+      </section>
     </main>
   </body>
 </html>
