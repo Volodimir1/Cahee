@@ -2,15 +2,17 @@
 
 // Core
 @import './core/vars';
-@import './core/inheritance';
 @import './core/mixins';
+@import './core/inheritance';
 @import './core/common';
 
 // Common components
-@import './components/button';
-@import './components/scroll';
+@import './components/common/button';
+@import './components/common/scroll';
+
+@import './components/common/logo';
+@import './components/common/navigation';
 
 // Components
-@import './components/logo';
-@import './components/navigation';
 @import './components/header';
+@import './components/footer'
