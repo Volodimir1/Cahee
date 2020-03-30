@@ -1,0 +1,11 @@
+.section-contact {
+    background-image: url(../images/bg-contact.png);
+    @extend %background-image;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    @include media {
+        padding-top: 101px;
+        padding-bottom: 120px;
+    }
+    
+}
