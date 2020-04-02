@@ -2,12 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-body,
-a,
-button,
-input {
+body, a, button, input {
   font-family: $base-font;
 }
 
@@ -15,6 +13,16 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 .container {
   @extend %container;
+  padding-left: 24px;
+  padding-right: 24px;
+  @media screen and (min-width: $screen-desktop-large) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
